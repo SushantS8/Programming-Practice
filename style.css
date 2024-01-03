@@ -1,0 +1,18 @@
+body{
+ background-color:powderblue;
+}
+
+h1{
+  color:violet;
+  font-family:verdana;
+  font-size:200%;
+  border:5px solid black;
+  padding:50px;
+  margin:60px;
+}
+
+p{
+  color:cyan;
+  font-family:courier;
+  font-size:50px;
+}
