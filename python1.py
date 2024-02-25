@@ -18,4 +18,10 @@ print(msg)
 name = "Kris"
 age = 20
 print("Hello, %s!" %name)
-print("%s is %d years old." %(name,age))
+print("%s is %d years old." %(name,age)) 
+
+#String Formatting
+#This prints Hello, John!
+
+name = "John"
+print("Hello, %s!" %name)
