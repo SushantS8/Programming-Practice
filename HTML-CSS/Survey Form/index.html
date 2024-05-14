@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><i>Please fill out all the necessary contents in the form</i></p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter your email" required></label>
+        <label for="number" id="number-label">Age: <input type="number" id="number" min="18" max="100" placeholder="Enter your age" required></label>
+        <label for="dropdown">Address:      
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Kathmandu</option>
+          <option value="2">Bhaktapur</option>
+          <option value="3">Pokhara</option>
+          <option value="4">Biratnagar</option>
+        </select>
+        </label>
+        <label>Gender:
+        <label><input type="radio" name="radio" value="1" class="inline" checked> Male</label>
+         <label><input type="radio" name="radio" value="2" class="inline"> Female </label></label>
+        <label>Is this survey helpful?
+          <label><input type="checkbox" name="check" value="1" class="inline" required> Yes</label>
+          <label><input type="checkbox" name="check" value="0" class="inline" required> No</label>
+        </label>
+        <label>
+          <textarea rows="3" cols="30" placeholder="Any suggestions would be helpful...."></textarea>
+        </label>
+                <input type="submit" value="Submit" id="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
