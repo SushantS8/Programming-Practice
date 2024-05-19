@@ -5,3 +5,11 @@ h1{
     margin: auto;
     text-align: center;
 }
+
+p{
+    font-family:serif, arial;
+    color:black;
+    padding: auto;
+    margin: auto;
+    text-align: center; 
+}
