@@ -1,4 +1,19 @@
 #image{  
-    width:100%;  max-width:100%;  height:auto;  
+    width:100%;
+    max-width:100%;  
+    height:auto;  
     display:block;
     }
+
+ body{
+    background-color:darkcyan;
+    text-align:center;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 20px;
+    margin: auto;
+    padding: auto auto;
+ }   
+
+ li{
+    display: block;
+ }
