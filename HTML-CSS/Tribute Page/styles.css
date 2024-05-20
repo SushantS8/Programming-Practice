@@ -1,15 +1,4 @@
-h1{
-    font-family:serif, arial;
-    color:black;
-    padding: auto;
-    margin: auto;
-    text-align: center;
-}
-
-p{
-    font-family:serif, arial;
-    color:black;
-    padding: auto;
-    margin: auto;
-    text-align: center; 
-}
+#image{  
+    width:100%;  max-width:100%;  height:auto;  
+    display:block;
+    }
