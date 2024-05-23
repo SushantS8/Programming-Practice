@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Git and GitHub</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#What_does_Git_do">What does Git do</a>
+      <a class="nav-link" href="#Working_with_Git">Working with Git</a>
+      <a class="nav-link" href="#Why_Git">Why Git
+</a>
+      <a class="nav-link" href="#What_is_GitHub">What is GitHub</a>
+     <a class="nav-link" href="#Some_git_commands">Some git commands</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">              <header>Introduction</header>
+      <p>Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.</p>
+<p>It is used for:
+<ul>
+ <li>Tracking code changes</li>
+ <li>Tracking who made changes</li>
+ <li>Coding collaboration</li>
+</ul>
+</p>
+      </section>
+      <section class="main-section" id="What_does_Git_do">
+        <header>What does Git do</header>
+        <p>
+          <ul>
+ <li>Manage projects with <b>Repositories</b></li>
+ <li><b>Clone</b> a project to work on a local copy</li>
+ <li>Control and track changes with <b>Staging</b> and <b>Committing</b></li>
+ <li><b>Branch</b> and <b>Merge</b> to allow for work on different parts and versions of a project</li>
+ <li><b>Pull</b> the latest version of the project to a local copy</li>
+ <li><b>Push</b> local updates to the main project</li>
+</ul>
+        </p>
+      </section>
+      <section class="main-section" id="Working_with_Git">
+        <header>Working with Git</header>
+                <p>
+          <ul>
+ <li>Initialize Git on a folder, making it a <b>Repository</b></li>
+ <li>Git now creates a hidden folder to keep track of changes in that folder</li>
+ <li>When a file is changed, added or deleted, it is considered <b>modified</b></li>
+ <li>You select the modified files you want to <b>Stage</b></li>
+ <li>The <b>Staged</b> files are <b>Committed</b>, which prompts Git to store a <b>permanent</b> snapshot of the files</li>
+ <li>Git allows you to see the full history of every commit.</li>
+ <li>You can revert back to any previous commit.</li>
+ <li>GGit does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!</li>
+</ul>
+        </p>
+      </section>
+      <section class="main-section" id="Why_Git">
+        <header>Why Git</header>
+        <p>
+<ul>
+ <li>Over 70% of developers use Git!</li>
+ <li>Developers can work together from anywhere in the world.</li>
+ <li>Developers can see the full history of the project.</li>
+ <li>Developers can revert to earlier versions of a project.</li>
+</ul>
+</p>
+      </section>
+      <section class="main-section" id="What_is_GitHub">
+        <header>What is GitHub</header>
+                <p>
+<ul>
+ <li>Git is not the same as GitHub.</li>
+ <li>GitHub makes tools that use Git.</li>
+ <li>GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.</li>
+ <li>In this tutorial, we will focus on using Git with GitHub.
+</li>
+</ul>
+</p>
+      </section>
+      <section class="main-section" id="Some_git_commands">
+        <header>Some git commands</header>
+       <h4>Configure Git</h4>
+       <div><code>git config --global user.name "Harry"</code></div>
+<div><code>git config --global user.email "harry@123.com"</code></div>
+<h4>Creating Git Folder</h4>
+       <div><code>mkdir myproject</code></div>
+<div><code>cd myproject</code></div>
+<h4>Initialize Git</h4>
+       <div><code>git init </code></div>
+<h4>Git Adding New Files</h4>
+       <div><code>git add "filename" </code></div>
+      </section>
+    </main>
+  </body>
+</html>
