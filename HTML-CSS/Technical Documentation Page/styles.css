@@ -1,8 +1,30 @@
 .nav-link{
     display:block;
+    font-style:italic;
   }
   
+  header{
+  font-weight:bold;
+  font-size:18px;
+  }
   
-  @media{
-    
+  h4{
+   font-size:15px;
+  }
+  
+  code{
+  display:block;
+  background-color:cyan;
+  padding:3px;
+  border-radius:2px;
+  }
+  
+  html, body{
+   font-family:Open Sans, Arial, sans-serif;
+  }
+  
+  @media (max-width:500px) and (min-width:200px){
+   body{
+    width:500px;
+    }
   }
