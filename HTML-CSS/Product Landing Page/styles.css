@@ -1,0 +1,55 @@
+#header {
+    position: fixed;
+    background-color: darkblue;
+    width: 100%;
+    color: white; /* Change to white for text color */
+    margin: 0;
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically center */
+  }
+  
+  #nav-bar {
+    margin-left: 10px; /* Push nav-bar to the right */
+  }
+  
+  nav {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .nav-link {
+    color: white; /* Set the color to white */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  body{
+   background-color:black;
+   color:white;
+  }
+  
+  main {
+    padding-top: 90px;
+  }
+  
+  a{
+   color:white;
+   font-size:17.5px;
+   font-family:arial, sans-serif;
+  }
+  
+  #submit:hover {
+    background-color: cyan;
+  }
+  
+  #submit {
+    border-radius: 5px;
+    display: flex;
+    margin: 10px 100px;
+  }
+  
