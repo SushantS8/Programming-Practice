@@ -3,71 +3,73 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Project</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    
   </head>
   <body>
-    <!-- Start nav --> 
-
-     <nav id="navbar">
-       <ul>
-         <li>
-           <a href="#welcome-section">About</a>
-           </li>
-         <li>
-           <a href="#projects">Work</a>
-           </li>
-         <li>
-           <a href="#contacts">Contacts</a>
-           </li>
-       </ul>
-     </nav><hr>
-
-    <!-- End nav -->
-
-    <!-- Start welcome section -->
-
-    <section id="welcome-section">
-       <h1>Hey I am Sushant</h1>
-       <p>coding enthusiast</p>
-    </section><hr>
-
-    <!-- End welcome section -->
-
-    <!-- Start project section -->
-
-    <section id="projects">
-      <div>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-68"
-        target="_blank">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0a5AorqCZdCJpPJ2A9J8gWbJz9gzTtSHX-w&s"
-        alt="quiz app">
-        <p>Quiz App</p>
-        </a>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" target="_blank">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgx6FMDBrDvH6iqS-tP6DXYrZliSO12Ns_Tg&s" alt="Jurgen Klopp"> 
-        <p>Jurgen Klopp</p>
-        </a>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form" target="_blank">
-        <img src="https://cdn.venngage.com/template/thumbnail/small/bc01073b-bef2-4df3-bdbb-0f8c9767dd4d.webp" alt="survey form" width="200px" height="250px">
-        <p>Survey Form</p>
-        </a>
-        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page" target="_blank">
-        <img src="https://www.cubicpromote.com.au/media/magefan_blog/2018/04/Fun-Minimalist-Promotional-Logos-Earbuds.jpg" alt="Earbuds" width="200px" height="200px">
-        <p>Product Landing Page</p>
-        </a>
-      </div>
-    </section><hr>
-
-    <!-- End project section -->
-
-    <!-- Start contact section -->
-
-    <section id="contacts">
-
-    </section>
-
-    <!-- End contact section -->
-
+    <header id="header">
+      <img id="header-img" src="https://www.cubicpromote.com.au/media/magefan_blog/2018/04/Fun-Minimalist-Promotional-Logos-Earbuds.jpg" alt="logo" width="60px">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#Features">Features</a>
+        <a class="nav-link" href="#working">How It Works</a>
+        <a class="nav-link" href="#Pricing">Pricing</a>
+      </nav>
+    </header>
+    <main>
+      <section id="Features">
+        <div class="container">
+          <h2>Features</h2>
+          <ul>
+            <li>Superior Sound Quality</li>
+            <li>Long Battery Life</li>
+            <li>Ergonomic Design</li>
+            <li>Noise Cancellation</li>
+            <li>Quick Pairing</li>
+            <li>Touch Controls</li>
+          </ul>
+        </div>
+      </section>
+      <section id="working">
+        <div class="container">
+          <h2>How It Works</h2>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/_ZKNOKHpqE4" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section id="Pricing">
+        <div class="container">
+          <h2>Pricing</h2>
+          <p>$129.99</p>
+          <a href="checkout.html" class="cta-button">Buy Now</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@example.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <h3>Customer Service</h3>
+                <p>Please contact us if any inconvenience arrive using below form</p>
+            <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit"> 
+            Email: <input id="email" name="email" type="email" placeholder="Please provide your email..."> 
+            <input id="submit" type="submit" value="Submit">
+            </form>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#" class="social-link"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="footer-section">
+                <p>&copy; 2024 Wireless Earbuds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
