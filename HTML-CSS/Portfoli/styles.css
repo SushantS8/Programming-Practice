@@ -1,63 +1,71 @@
-#header {
-  position: fixed;
-  background-color: darkblue;
-  width: 100%;
-  color: white; /* Change to white for text color */
-  margin: 0;
-  padding: 10px;
-  display: flex; /* Use flexbox */
-  align-items: center; /* Align items vertically center */
-}
-
-#nav-bar {
-  margin-left: 10px; /* Push nav-bar to the right */
-}
-
 nav {
   display: flex;
   gap: 8px;
+  background-color:black;
 }
 
-.nav-link {
-  color: white; /* Set the color to white */
-  text-decoration: none; /* Remove underline */
-  cursor: pointer; /* Change cursor to pointer on hover */
-}
-
-.nav-link:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-body{
- background-color:black;
- color:white;
-}
-
-main {
-  padding-top: 90px;
-}
-
-a{
- color:white;
- font-size:17.5px;
- font-family:arial, sans-serif;
-}
-
-#submit:hover {
-  background-color: cyan;
-}
-
-#submit {
-  border-radius: 5px;
+ul{
   display: flex;
-  margin: 10px 100px;
+  gap:30px;
+  list-style-type: none;
+  font-size:20px;
 }
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  background-color: red;
+width: 100%;
+padding: 30px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust the color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 10; /* Ensure it's above other content */
+}
+
+#welcome-section {
+    /* Add margin-top to push it below the navbar */
+    margin-top: 80px;
+}
+
+.projects-grid{
+   display: grid; 
+   grid-template-columns: 50% 50%;
+}
+
+.projects-grid img{
+  margin-left: 200px;
+}
+
+.projects-grid p{
+  text-align:center;
+}
+
+
 
 @media(max-width:300px){
  a {
     font-size: 16px; /* Adjust font size for smaller screens */
   }
 
-  #header {
-    padding: 15px;
+
+h1{
+  font-family: sans-serif, Verdana;
+font-size: 30px;
 }
+
+p{
+  font-family: sans-serif, Verdana;
+}
+
+
+
