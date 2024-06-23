@@ -133,7 +133,7 @@ const pushed = colors.push('white');
 
 console.log(colors); // prints [ 'red', 'blue', 'green', 'white' ]
 
-console.log(pushed); // print 4
+console.log(pushed); // prints 4
 
 
 
